@@ -1,0 +1,305 @@
+/* 
+Styles are easy to change with CSS!
+This template doesn't do anything by default.
+To change the page, un-comment the default CSS rules, or write your own!
+*/
+
+/* TODO: Un-comment these rules or write your own */
+@media (prefers-color-scheme: dark) {
+	:root {
+		--very-dark-gray: #121212;
+		--dark-gray: rgb(41, 41, 41);
+		--ctrLD-color: white !important;
+		--link-color: rgb(58, 166, 255);
+		--ic-brand-font-color-dark-lightened-15: white !important;
+	}
+	body {
+		background-color: var(--very-dark-gray) !important;
+	}
+
+	.ic-Layout-contentMain {
+		background-color: var(--very-dark-gray);
+	}
+	.ic-Dashboard-header__layout {
+		background: var(--very-dark-gray) !important;
+	}
+
+	h1 {
+		color: white;
+	}
+	
+	#DashboardOptionsMenu_Container > * > * > * > * {
+		color: white;
+	}
+	#planner-todosidebar-item-list > li > div > svg {
+		color: white;
+	}
+	#planner-todosidebar-item-list > li {
+		padding: 3px !important;
+	}
+	#planner-todosidebar-item-list > li > div {
+		padding: 10px;
+		background-color: var(--dark-gray);
+		border-radius: 4px;
+	}
+	.ic-DashboardCard__header_content,
+	.ic-DashboardCard__action-container,
+	.ic-DashboardCard {
+		background-color: var(--dark-gray) !important;
+	}
+	#planner-todosidebar-item-list
+		> li
+		> div
+		> div.ToDoSidebarItem__Info
+		> div
+		> a
+		> span {
+		color: var(--link-color);
+	}
+	.ic-DashboardCard__header_hero {
+		background-color: #fff;
+		opacity: 0 !important;
+	}
+	.header-bar {
+		background-color: var(--very-dark-gray) !important;
+	}
+	#planner-todosidebar-item-list
+		> li
+		> div
+		> div.ToDoSidebarItem__Info
+		> span {
+		color: white;
+	}
+
+	.btn {
+		background-color: var(--dark-gray) !important;
+		color: white !important;
+		border: none !important;
+	}
+	.content {
+		background-color: var(--dark-gray);
+	}
+	.button-sidebar-wide {
+		border: none !important;
+		background-color: var(--dark-gray) !important;
+		color: white !important;
+	}
+	#right-side > .events_list > * {
+		background: none !important;
+	}
+	.event-details:after {
+		background: none !important;
+	}
+	div.event-details {
+		background-color: var(--dark-gray) !important;
+		padding: 10px;
+		border-radius: 4px;
+	}
+	#right-side
+		> div.events_list.recent_feedback
+		> ul
+		> li
+		> a
+		> div.event-details
+		> p {
+		color: white;
+	}
+	#right-side
+		> div.events_list.recent_feedback
+		> ul
+		> li
+		> a
+		> div.event-details
+		> b {
+		color: white;
+		font-weight: bold;
+		font-size: 12pt;
+	}
+	#DashboardCard_Container > div > div > div > div > a:hover {
+		color: var(--link-color);
+		text-decoration: none;
+		font-weight: bold;
+	}
+	#DashboardCard_Container > div > div > div > div > a > div > h3 > span {
+		color: var(--link-color) !important;
+	}
+	.student-view {
+		background-color: var(--very-dark-gray) !important;
+		margin: 0px !important;
+	}
+	.ig-header {
+		background-color: var(--dark-gray) !important;
+		text-shadow: none !important;
+		border: none !important;
+		margin-bottom: 15px;
+		border-radius: 4px;
+	}
+	.ig-header > span > .name {
+		text-shadow: none !important;
+		color: white;
+	}
+	.ig-row {
+		border: none !important;
+		margin: 5px !important;
+	}
+	.indent_0 > .ig-row {
+		background-color: var(--dark-gray) !important;
+		border-radius: 10px !important;
+	}
+	.indent_1 > .ig-row {
+		background-color: rgb(24, 24, 24) !important;
+	}
+	.item-group-container {
+		background-color: var(--very-dark-gray) !important;
+	}
+	#breadcrumbs {
+		background-color: var(--very-dark-gray) !important;
+	}
+	.footer {
+		display: none;
+	}
+	ul.ig-list {
+		background-color: var(--very-dark-gray) !important;
+	}
+	.module-sequence-footer,
+	.module-sequence-footer-content {
+		background: var(--very-dark-gray) !important;
+		border: none !important;
+	}
+	.grade {
+		padding: 5px;
+		padding-bottom: 10px;
+		font-weight: 800;
+	}
+	.grade:hover {
+		cursor: pointer;
+	}
+	.icon-more {
+		color: var(--ic-brand-primary-lightened-15);
+	}
+	.navigation-tray-container {
+		background-color: var(--very-dark-gray);
+	}
+
+	.remove-todo-button {
+		background-color: var(--dark-gray);
+		color: white;
+		border: none;
+		border-radius: 4px;
+		padding: 10px;
+		margin: 10px;
+	}
+	a.active{
+		color: var(--link-color) !important;
+	}
+	
+	:root {
+		--ic-brand-primary-darkened-5: #4e4747;
+		--ic-brand-primary-darkened-10: #8a0000;
+		--ic-brand-primary-darkened-15: #830000;
+		--ic-brand-primary-lightened-5: #9e0c0c;
+		--ic-brand-primary-lightened-10: #a31919;
+		--ic-brand-primary-lightened-15: #a82626;
+		--ic-brand-button--primary-bgd-darkened-5: #920000;
+		--ic-brand-button--primary-bgd-darkened-15: #830000;
+		--ic-brand-button--secondary-bgd-darkened-5: #000000;
+		--ic-brand-button--secondary-bgd-darkened-15: #000000;
+		--ic-brand-font-color-dark-lightened-15: #4c5860;
+		--ic-brand-font-color-dark-lightened-30: #6c757c;
+		--ic-link-color-darkened-10: #0369a3;
+		--ic-link-color-lightened-10: #1c81bc;
+		--ic-brand-primary: #ff0000;
+		--ic-brand-font-color-dark: #fdfeff !important;
+		--ic-link-color: var(--link-color) !important;
+		--ic-brand-button--primary-bgd: var(--ic-brand-primary);
+		--ic-brand-button--primary-text: #ffffff;
+		--ic-brand-button--secondary-bgd: #000000;
+		--ic-brand-button--secondary-text: #ffffff;
+		--ic-brand-global-nav-bgd: #990000;
+		--ic-brand-global-nav-ic-icon-svg-fill: #e7d9c1;
+		--ic-brand-global-nav-ic-icon-svg-fill--active: var(--ic-brand-primary);
+		--ic-brand-global-nav-menu-item__text-color: #ffffff;
+		--ic-brand-global-nav-menu-item__text-color--active: #000000;
+		--ic-brand-global-nav-avatar-border: #e7d9c1;
+		--ic-brand-global-nav-menu-item__badge-bgd: #fffff0;
+		--ic-brand-global-nav-menu-item__badge-bgd--active: #ffffff;
+		--ic-brand-global-nav-menu-item__badge-text: #000000;
+		--ic-brand-global-nav-menu-item__badge-text--active: #ffffff;
+		--ic-brand-global-nav-logo-bgd: #d7d7d7;
+		--ic-brand-header-image: url("https://instructure-uploads.s3.amazonaws.com/account_83960000000000001/attachments/1/uwlogo_sm.png?AWSAccessKeyId=AKIAJFNFXH2V2O7RPCAA&Expires=1933322020&Signature=jJXR8i9rONEdoWb0q27RPFtHhqA%3D&response-cache-control=Cache-Control%3Amax-age%3D473364000%2C%20public&response-expires=473364000");
+		--ic-brand-mobile-global-nav-logo: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/mobile-global-nav-logo-aff8453309.svg");
+		--ic-brand-watermark: ;
+		--ic-brand-watermark-opacity: 1;
+		--ic-brand-favicon: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/favicon-e10d657a73.ico");
+		--ic-brand-apple-touch-icon: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/apple-touch-icon-585e5d997d.png");
+		--ic-brand-msapplication-tile-color: #efe9e9;
+		--ic-brand-msapplication-tile-square: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/windows-tile-eda8889e7b.png");
+		--ic-brand-msapplication-tile-wide: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/windows-tile-wide-44d3cc1060.png");
+		--ic-brand-right-sidebar-logo: ;
+		--ic-brand-Login-body-bgd-color: #394b58;
+		--ic-brand-Login-body-bgd-image: ;
+		--ic-brand-Login-body-bgd-shadow-color: #2d3b45;
+		--ic-brand-Login-logo: url("https://du11hjcvx0uqb.cloudfront.net/dist/images/login/canvas-logo-5617606953.svg");
+		--ic-brand-Login-Content-bgd-color: none;
+		--ic-brand-Login-Content-border-color: none;
+		--ic-brand-Login-Content-inner-bgd: none;
+		--ic-brand-Login-Content-inner-border: none;
+		--ic-brand-Login-Content-inner-body-bgd: none;
+		--ic-brand-Login-Content-inner-body-border: none;
+		--ic-brand-Login-Content-label-text-color: #ffffff;
+		--ic-brand-Login-Content-password-text-color: #ffffff;
+		--ic-brand-Login-footer-link-color: #ffffff;
+		--ic-brand-Login-footer-link-color-hover: #ffffff;
+		--ic-brand-Login-instructure-logo: #ffffff;
+		--pFBbo-background: var(--very-dark-gray) !important;
+		--MlJlv-textColor: white !important;
+		--cCGLM-color: white !important;
+		--enRcg-secondaryColor: white !important;
+		--pFBbo-color: white !important;
+		--cCGLM-secondaryColor: white !important;
+		--bDBte-titleBackground: var(--dark-gray) !important;
+	}
+	tr.student_assignment:hover{
+		background-color: var(--dark-gray) !important;
+	}
+}
+#global_nav_help_link{
+		display: none;
+	}
+	#global_nav_history_link{
+		display: none;
+	}
+	.ic-app-header__menu-list-item{
+		padding-top: 5px !important;
+		padding-bottom: 5px !important;
+	}
+.remove-todo-button {
+		border: none;
+		border-radius: 4px;
+		padding: 10px;
+		margin: 10px;
+	}
+	#right-side > div.events_list.recent_feedback > div{
+		margin-top: 17px
+	}
+	.ic-DashboardCard {
+		border-radius: 10px !important;
+		transition: ease 0.25s;
+		width: 300px !important;
+	}
+
+	.ic-DashboardCard:hover {
+		transform: scale(1.01);
+		transition: ease 0.15s;
+	}
+/*
+The '*' selector applies to all elements.
+When combined with !important, it is extremely powerful.
+Be careful...
+*/
+
+/*
+* {
+    font-family: "Comic Sans MS", "Chalkboard SE", cursive, sans-serif !important;
+}
+*/
